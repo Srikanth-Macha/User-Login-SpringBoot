@@ -15,7 +15,7 @@
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>16</java.version>
-        <kotlin.version>1.6.20</kotlin.version>
+        <kotlin.version>1.6.10</kotlin.version>
     </properties>
     <dependencies>
         <dependency>
@@ -61,6 +61,7 @@
         <sourceDirectory>${project.basedir}/src/main/kotlin</sourceDirectory>
         <testSourceDirectory>${project.basedir}/src/test/kotlin</testSourceDirectory>
         <plugins>
+
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
